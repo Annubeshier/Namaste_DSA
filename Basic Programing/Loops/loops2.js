@@ -2,7 +2,7 @@
 // write a function that searchs for an element in an array nd return the index. If the element is not found, return -1.
 
 
-function findingTheElement(arr,number) {2
+function findingTheElement(arr,number) {
 
     for (let index = 0; index < arr.length; index++) {
         if (arr[index] === number) {
