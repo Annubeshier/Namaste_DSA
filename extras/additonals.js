@@ -15,6 +15,8 @@ const useFetch = (url) => {
   return { data, isLoading };
 };
 
+****************************************** 
+
 const categories = [
   { name: "Fruits", items: ["Apple", "Banana"] },
   { name: "Veggies", items: ["Carrot", "Tomato"] },
@@ -35,6 +37,7 @@ return (
   </div>
 );
 
+***********************************8
 
 const AsyncFetch =()=>{
 
@@ -50,7 +53,7 @@ const AsyncFetch =()=>{
     },[])
 }
 
-
+***************************************
 const DebouncedValue = ()=>{
     const [value , setValue ]= useState();
     const [debouncedValue, setDebouncedValue]= useState(value);
@@ -71,7 +74,7 @@ const DebouncedValue = ()=>{
     )
 }
 
-
+******************
 
 
 const initialState = { count: 0 };

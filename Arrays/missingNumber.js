@@ -35,7 +35,7 @@ All the numbers of nums are unique.
 //SOLUTION
 
 function missingNumber(value) { 
-    let n = value.length;
+    let n = value.length+1;
     let totalSum = n * (n + 1) / 2;
     let partialSum = 0;
     for (let i = 0; i < n; i++) { 
