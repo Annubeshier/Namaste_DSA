@@ -35,6 +35,9 @@ const App = () => {
 
 export default App;
 
+
+
+
 /*
 
 const promise = new Promise((resolve , reject)=>{
@@ -44,7 +47,7 @@ resolve("Promise resolved successfully");}
     }
 else{
     reject("Promise rejected");}
-promise.the((response)=> console.log(response)).catch((error)=> console.log(error));
+promise.then((response)=> console.log(response)).catch((error)=> console.log(error));
 
 
 
